@@ -3,6 +3,9 @@
     {
       "categ_id": 1,
       "title": "programming languages 💻",
+      "quizes_number": 4,
+      "creation_date": "1-1-2021",
+      "language": "eng",
       "thumb_nail_img": "",
       "quiz_list": [
         {
@@ -23,6 +26,9 @@
       "categ_id": 2,
       "title": "networking ⛓",
       "thumb_nail_img": "",
+      "quizes_number": 4,
+      "creation_date": "1-1-2021",
+      "language": "eng",
       "quiz_list": [
         {
           "quiz_id": 5
