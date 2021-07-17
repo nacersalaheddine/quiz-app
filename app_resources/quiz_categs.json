@@ -1,1 +1,42 @@
-
+{
+  "categories": [
+    {
+      "categ_id": 1,
+      "title": "programming languages 💻",
+      "thumb_nail_img": "",
+      "quiz_list": [
+        {
+          "quiz_id": 1
+        },
+        {
+          "quiz_id": 2
+        },
+        {
+          "quiz_id": 3
+        },
+        {
+          "quiz_id": 4
+        }
+      ]
+    },
+    {
+      "categ_id": 2,
+      "title": "networking ⛓",
+      "thumb_nail_img": "",
+      "quiz_list": [
+        {
+          "quiz_id": 5
+        },
+        {
+          "quiz_id": 6
+        },
+        {
+          "quiz_id": 7
+        },
+        {
+          "quiz_id": 8
+        }
+      ]
+    }
+  ]
+}
