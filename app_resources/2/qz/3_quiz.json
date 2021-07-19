@@ -1,7 +1,7 @@
 {
-  "quiz_id": 5,
-  "categ_id": 1,
-  "title": "C++ quiz",
+  "quiz_id": 3,
+  "categ_id": 2,
+  "title": "Network devices",
   "thumb_nail_img":"",
   "questions_number": 20,
   "questions": [

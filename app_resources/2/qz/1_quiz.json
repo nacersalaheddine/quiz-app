@@ -1,7 +1,7 @@
 {
-  "quiz_id": 7,
-  "categ_id": 1,
-  "title": "Java quiz",
+  "quiz_id": 1,
+  "categ_id": 2,
+  "title": "Physical layer",
   "thumb_nail_img":"",
   "questions_number": 20,
   "questions": [

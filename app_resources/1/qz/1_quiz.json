@@ -1,10 +1,359 @@
 {
   "quiz_id": 1,
   "categ_id": 1,
-  "title": "C++ quiz",
-  "thumb_nail_img":"",
+  "title": "HTML/JS quiz",
+  "thumb_nail_img": "",
   "questions_number": 20,
   "questions": [
-    {}
+    {
+      "question": [
+        "Inside which HTML element do we put the JavaScript?"
+      ],
+      "choices": [
+        "<script>",
+        "<javascript>",
+        "<js>",
+        "<scripting>"
+      ],
+      "correctAnswer": "<script>",
+      "explanation": "",
+      "description": "",
+      "type": "scq"
+    },
+    {
+      "question": [
+        "What is the correct JavaScript syntax to change the content of the HTML element below?",
+        "<p id=\"demo\">This is a demonstration.</p>"
+      ],
+      "choices": [
+        "document.getElementById(\"demo\").innerHTML = \"Hello World!\"; ",
+        "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+        "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+        "#demo.innerHTML = \"Hello World!\";"
+      ],
+      "correctAnswer": "document.getElementById(\"demo\").innerHTML = \"Hello World!\"; ",
+      "description": "",
+      "type": "scq"
+    },
+    {
+      "question": [
+        "Where is the correct place to insert a JavaScript?"
+      ],
+      "choices": [
+        "Both the <head> section and the <body> section are correct  ",
+        "The <body> section",
+        "The <head> section"
+      ],
+      "correctAnswer": "Both the <head> section and the <body> section are correct",
+      "description": "",
+      "type": "scq"
+    },
+    {
+      "question": [
+        "What is the correct syntax for referring to an external script called \"xxx.js\"?"
+      ],
+      "choices": [
+        "<script name=\"xxx.js\">  ",
+        "<script src=\"xxx.js\">  ",
+        "<script href=\"xxx.js\">"
+      ],
+      "correctAnswer": "",
+      "description": "",
+      "type": "scq"
+    },
+    {
+      "question": [
+        "The external JavaScript file must contain the <script> tag."
+      ],
+      "choices": [
+        "false",
+        "true"
+      ],
+      "correctAnswer": "",
+      "description": "",
+      "type": "scq"
+    },
+    {
+      "question": [
+        "How do you write \"Hello World\" in an alert box?"
+      ],
+      "choices": [
+        "alert(\"Hello World\"); ",
+        "alertBox(\"Hello World\");",
+        "msgBox(\"Hello World\");",
+        "msg(\"Hello World\");"
+      ],
+      "correctAnswer": "alert(\"Hello World\"); ",
+      "description": "",
+      "type": "scq"
+    },
+    {
+      "question": [
+        "How do you create a function in JavaScript?"
+      ],
+      "choices": [
+        "function myFunction()",
+        "function:myFunction()",
+        "function = myFunction()"
+      ],
+      "correctAnswer": "function myFunction()",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How do you call a function named \"myFunction\"?"
+      ],
+      "choices": [
+        "myFunction()",
+        "call myFunction()",
+        "call function myFunction()"
+      ],
+      "correctAnswer": "myFunction()",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How to write an IF statement in JavaScript?"
+      ],
+      "choices": [
+        "if (i == 5)",
+        "if i = 5",
+        "if i == 5 then",
+        "if i = 5 then"
+      ],
+      "correctAnswer": "if (i == 5)",
+      "description": "",
+      "type": "scq"
+    },
+    {
+      "question": [
+        "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?"
+      ],
+      "choices": [
+        "if (i != 5)",
+        "if (i <> 5)",
+        "if i =! 5 then",
+        "if i <> 5"
+      ],
+      "correctAnswer": "if (i != 5)",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How does a WHILE loop start?"
+      ],
+      "choices": [
+        "while (i <= 10) ",
+        "while i = 1 to 10",
+        "while (i <= 10; i++)"
+      ],
+      "correctAnswer": "while (i <= 10)",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How does a FOR loop start?"
+      ],
+      "choices": [
+        "for (i = 0; i <= 5; i++)",
+        "for i = 1 to 5",
+        "for (i <= 5; i++)",
+        "for (i = 0; i <= 5)"
+      ],
+      "correctAnswer": "for (i = 0; i <= 5; i++)",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How can you add a comment in a JavaScript?"
+      ],
+      "choices": [
+        "//This is a comment ",
+        "<!--This is a comment-->",
+        "'This is a comment"
+      ],
+      "correctAnswer": "//This is a comment ",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How to insert a comment that has more than one line?"
+      ],
+      "choices": [
+        "/*This comment has \\nmore than one line*/  ",
+        "<!--This comment has \\nmore than one line-->",
+        "//This comment has \\nmore than one line//"
+      ],
+      "correctAnswer": "/*This comment has \\nmore than one line*/  ",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "What is the correct way to write a JavaScript array?"
+      ],
+      "choices": [
+        "var colors = [\"red\", \"green\", \"blue\"] ",
+        "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+        "var colors = \"red\", \"green\", \"blue\"",
+        "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")"
+      ],
+      "correctAnswer": "var colors = [\"red\", \"green\", \"blue\"] ",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How do you round the number 7.25, to the nearest integer?"
+      ],
+      "choices": [
+        "Math.round(7.25)",
+        "Math.rnd(7.25)",
+        "round(7.25)",
+        "rnd(7.25)"
+      ],
+      "correctAnswer": "Math.round(7.25)",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How do you find the number with the highest value of x and y?"
+      ],
+      "choices": [
+        "Math.max(x, y)",
+        "ceil(x, y)",
+        "top(x, y)",
+        "Math.ceil(x, y)"
+      ],
+      "correctAnswer": "Math.max(x, y)",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "What is the correct JavaScript syntax for opening a new window called \"w2\" ?"
+      ],
+      "choices": [
+        "w2 = window.open(\"http://www.w3schools.com\");",
+        "w2 = window.new(\"http://www.w3schools.com\");"
+      ],
+      "correctAnswer": "w2 = window.open(\"http://www.w3schools.com\");",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "JavaScript is the same as Java."
+      ],
+      "choices": [
+        "false",
+        "true"
+      ],
+      "correctAnswer": "false",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How can you detect the client's browser name?"
+      ],
+      "choices": [
+        "navigator.appName",
+        "client.navName",
+        "browser.name"
+      ],
+      "correctAnswer": "navigator.appName",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "Which event occurs when the user clicks on an HTML element?"
+      ],
+      "choices": [
+        "onclick",
+        "onmouseover",
+        "onmouseclick",
+        "onchange"
+      ],
+      "correctAnswer": "onclick",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "How do you declare a JavaScript variable?"
+      ],
+      "choices": [
+        "var carName;",
+        "variable carName;",
+        "v carName;"
+      ],
+      "correctAnswer": "var carName; ",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "Which operator is used to assign a value to a variable?"
+      ],
+      "choices": [
+        "=",
+        "x",
+        "-",
+        "*"
+      ],
+      "correctAnswer": "=",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "What will the following code return: Boolean(10 > 9)"
+      ],
+      "choices": [
+        "true",
+        "NaN",
+        "false"
+      ],
+      "correctAnswer": "true",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "Is JavaScript case-sensitive?"
+      ],
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correctAnswer": "",
+      "description": "",
+      "type": "mcq"
+    },
+    {
+      "question": [
+        "var foo = function foo() {",
+        "console.log(foo === foo);",
+        "};",
+        "foo();"
+      ],
+      "choices": [
+        "ReferenceError",
+        "true",
+        "false"
+      ],
+      "correctAnswer": "true",
+      "description": "",
+      "type": "mcq"
+    }
   ]
 }

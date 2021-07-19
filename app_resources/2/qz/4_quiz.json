@@ -1,7 +1,7 @@
 {
-  "quiz_id": 6,
-  "categ_id": 1,
-  "title": "Javascript quiz",
+  "quiz_id": 4,
+  "categ_id": 2,
+  "title": "Switch & Router",
   "thumb_nail_img":"",
   "questions_number": 20,
   "questions": [

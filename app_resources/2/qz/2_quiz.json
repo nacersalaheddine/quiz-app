@@ -1,7 +1,7 @@
 {
-  "quiz_id": 8,
-  "categ_id": 1,
-  "title": "Python quiz",
+  "quiz_id": 2,
+  "categ_id": 2,
+  "title": "Data Link layer",
   "thumb_nail_img":"",
   "questions_number": 20,
   "questions": [
