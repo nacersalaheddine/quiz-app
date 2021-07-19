@@ -1,0 +1,10 @@
+{
+  "quiz_id": 1,
+  "categ_id": 1,
+  "title": "Javascript quiz",
+  "thumb_nail_img":"",
+  "questions_number": 20,
+  "questions": [
+    {}
+  ]
+}

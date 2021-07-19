@@ -1,0 +1,10 @@
+{
+  "quiz_id": 8,
+  "categ_id": 1,
+  "title": "Python quiz",
+  "thumb_nail_img":"",
+  "questions_number": 20,
+  "questions": [
+    {}
+  ]
+}

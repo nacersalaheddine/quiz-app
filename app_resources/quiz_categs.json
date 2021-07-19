@@ -6,21 +6,7 @@
       "quizes_number": 4,
       "creation_date": "1-1-2021",
       "language": "eng",
-      "thumb_nail_img": "",
-      "quiz_list": [
-        {
-          "quiz_id": 1
-        },
-        {
-          "quiz_id": 2
-        },
-        {
-          "quiz_id": 3
-        },
-        {
-          "quiz_id": 4
-        }
-      ]
+      "thumb_nail_img": ""
     },
     {
       "categ_id": 2,
@@ -28,21 +14,7 @@
       "thumb_nail_img": "",
       "quizes_number": 4,
       "creation_date": "1-1-2021",
-      "language": "eng",
-      "quiz_list": [
-        {
-          "quiz_id": 5
-        },
-        {
-          "quiz_id": 6
-        },
-        {
-          "quiz_id": 7
-        },
-        {
-          "quiz_id": 8
-        }
-      ]
+      "language": "eng"
     }
   ]
 }
