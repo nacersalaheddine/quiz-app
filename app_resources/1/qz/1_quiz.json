@@ -10,12 +10,20 @@
         "Inside which HTML element do we put the JavaScript?"
       ],
       "choices": [
-        "<script>",
-        "<javascript>",
-        "<js>",
-        "<scripting>"
+        {
+          "choice": "<script>"
+        },
+        {
+          "choice": "<javascript>"
+        },
+        {
+          "choice": "<js>"
+        },
+        {
+          "choice": "<scripting>"
+        }
       ],
-      "correctAnswer": "<script>",
+      "correctAnswer": 5221846730472888,
       "explanation": "",
       "description": "",
       "type": "scq"
@@ -26,12 +34,20 @@
         "<p id=\"demo\">This is a demonstration.</p>"
       ],
       "choices": [
-        "document.getElementById(\"demo\").innerHTML = \"Hello World!\"; ",
-        "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
-        "document.getElement(\"p\").innerHTML = \"Hello World!\";",
-        "#demo.innerHTML = \"Hello World!\";"
+        {
+          "choice": "document.getElementById(\"demo\").innerHTML = \"Hello World!\"; "
+        },
+        {
+          "choice": "document.getElementByName(\"p\").innerHTML = \"Hello World!\";"
+        },
+        {
+          "choice": "document.getElement(\"p\").innerHTML = \"Hello World!\";"
+        },
+        {
+          "choice": "#demo.innerHTML = \"Hello World!\";"
+        }
       ],
-      "correctAnswer": "document.getElementById(\"demo\").innerHTML = \"Hello World!\"; ",
+      "correctAnswer": 4946068764207332,
       "description": "",
       "type": "scq"
     },
@@ -40,11 +56,17 @@
         "Where is the correct place to insert a JavaScript?"
       ],
       "choices": [
-        "Both the <head> section and the <body> section are correct  ",
-        "The <body> section",
-        "The <head> section"
+        {
+          "choice": "Both the <head> section and the <body> section are correct  "
+        },
+        {
+          "choice": "The <body> section"
+        },
+        {
+          "choice": "The <head> section"
+        }
       ],
-      "correctAnswer": "Both the <head> section and the <body> section are correct",
+      "correctAnswer": 7366961589592346,
       "description": "",
       "type": "scq"
     },
@@ -53,11 +75,17 @@
         "What is the correct syntax for referring to an external script called \"xxx.js\"?"
       ],
       "choices": [
-        "<script name=\"xxx.js\">  ",
-        "<script src=\"xxx.js\">  ",
-        "<script href=\"xxx.js\">"
+        {
+          "choice": "<script name=\"xxx.js\">  "
+        },
+        {
+          "choice": "<script src=\"xxx.js\">  "
+        },
+        {
+          "choice": "<script href=\"xxx.js\">"
+        }
       ],
-      "correctAnswer": "",
+      "correctAnswer": 8936213185432811,
       "description": "",
       "type": "scq"
     },
@@ -66,10 +94,14 @@
         "The external JavaScript file must contain the <script> tag."
       ],
       "choices": [
-        "false",
-        "true"
+        {
+          "choice": "false"
+        },
+        {
+          "choice": "true"
+        }
       ],
-      "correctAnswer": "",
+      "correctAnswer": 8936213185432811,
       "description": "",
       "type": "scq"
     },
@@ -78,12 +110,20 @@
         "How do you write \"Hello World\" in an alert box?"
       ],
       "choices": [
-        "alert(\"Hello World\"); ",
-        "alertBox(\"Hello World\");",
-        "msgBox(\"Hello World\");",
-        "msg(\"Hello World\");"
+        {
+          "choice": "alert(\"Hello World\"); "
+        },
+        {
+          "choice": "alertBox(\"Hello World\");"
+        },
+        {
+          "choice": "msgBox(\"Hello World\");"
+        },
+        {
+          "choice": "msg(\"Hello World\");"
+        }
       ],
-      "correctAnswer": "alert(\"Hello World\"); ",
+      "correctAnswer": 1444553392697659,
       "description": "",
       "type": "scq"
     },
@@ -92,11 +132,17 @@
         "How do you create a function in JavaScript?"
       ],
       "choices": [
-        "function myFunction()",
-        "function:myFunction()",
-        "function = myFunction()"
+        {
+          "choice": "function myFunction()"
+        },
+        {
+          "choice": "function:myFunction()"
+        },
+        {
+          "choice": "function = myFunction()"
+        }
       ],
-      "correctAnswer": "function myFunction()",
+      "correctAnswer": 6326891229735037,
       "description": "",
       "type": "mcq"
     },
@@ -105,11 +151,17 @@
         "How do you call a function named \"myFunction\"?"
       ],
       "choices": [
-        "myFunction()",
-        "call myFunction()",
-        "call function myFunction()"
+        {
+          "choice": "myFunction()"
+        },
+        {
+          "choice": "call myFunction()"
+        },
+        {
+          "choice": "call function myFunction()"
+        }
       ],
-      "correctAnswer": "myFunction()",
+      "correctAnswer": 3862386812243680,
       "description": "",
       "type": "mcq"
     },
@@ -118,12 +170,20 @@
         "How to write an IF statement in JavaScript?"
       ],
       "choices": [
-        "if (i == 5)",
-        "if i = 5",
-        "if i == 5 then",
-        "if i = 5 then"
+        {
+          "choice": "if (i == 5)"
+        },
+        {
+          "choice": "if i = 5"
+        },
+        {
+          "choice": "if i == 5 then"
+        },
+        {
+          "choice": "if i = 5 then"
+        }
       ],
-      "correctAnswer": "if (i == 5)",
+      "correctAnswer": 4911546895574123,
       "description": "",
       "type": "scq"
     },
@@ -132,12 +192,20 @@
         "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?"
       ],
       "choices": [
-        "if (i != 5)",
-        "if (i <> 5)",
-        "if i =! 5 then",
-        "if i <> 5"
+        {
+          "choice": "if (i != 5)"
+        },
+        {
+          "choice": "if (i <> 5)"
+        },
+        {
+          "choice": "if i =! 5 then"
+        },
+        {
+          "choice": "if i <> 5"
+        }
       ],
-      "correctAnswer": "if (i != 5)",
+      "correctAnswer": 6848955517805168,
       "description": "",
       "type": "mcq"
     },
@@ -146,11 +214,17 @@
         "How does a WHILE loop start?"
       ],
       "choices": [
-        "while (i <= 10) ",
-        "while i = 1 to 10",
-        "while (i <= 10; i++)"
+        {
+          "choice": "while (i <= 10) "
+        },
+        {
+          "choice": "while i = 1 to 10"
+        },
+        {
+          "choice": "while (i <= 10; i++)"
+        }
       ],
-      "correctAnswer": "while (i <= 10)",
+      "correctAnswer": 6570783373200268,
       "description": "",
       "type": "mcq"
     },
@@ -159,12 +233,20 @@
         "How does a FOR loop start?"
       ],
       "choices": [
-        "for (i = 0; i <= 5; i++)",
-        "for i = 1 to 5",
-        "for (i <= 5; i++)",
-        "for (i = 0; i <= 5)"
+        {
+          "choice": "for (i = 0; i <= 5; i++)"
+        },
+        {
+          "choice": "for i = 1 to 5"
+        },
+        {
+          "choice": "for (i <= 5; i++)"
+        },
+        {
+          "choice": "for (i = 0; i <= 5)"
+        }
       ],
-      "correctAnswer": "for (i = 0; i <= 5; i++)",
+      "correctAnswer": 50054220329844,
       "description": "",
       "type": "mcq"
     },
@@ -173,11 +255,17 @@
         "How can you add a comment in a JavaScript?"
       ],
       "choices": [
-        "//This is a comment ",
-        "<!--This is a comment-->",
-        "'This is a comment"
+        {
+          "choice": "//This is a comment "
+        },
+        {
+          "choice": "<!--This is a comment-->"
+        },
+        {
+          "choice": "'This is a comment"
+        }
       ],
-      "correctAnswer": "//This is a comment ",
+      "correctAnswer": 4881105218449532,
       "description": "",
       "type": "mcq"
     },
@@ -186,11 +274,17 @@
         "How to insert a comment that has more than one line?"
       ],
       "choices": [
-        "/*This comment has \\nmore than one line*/  ",
-        "<!--This comment has \\nmore than one line-->",
-        "//This comment has \\nmore than one line//"
+        {
+          "choice": "/*This comment has \\nmore than one line*/  "
+        },
+        {
+          "choice": "<!--This comment has \\nmore than one line-->"
+        },
+        {
+          "choice": "//This comment has \\nmore than one line//"
+        }
       ],
-      "correctAnswer": "/*This comment has \\nmore than one line*/  ",
+      "correctAnswer": 7588112881771010,
       "description": "",
       "type": "mcq"
     },
@@ -199,12 +293,20 @@
         "What is the correct way to write a JavaScript array?"
       ],
       "choices": [
-        "var colors = [\"red\", \"green\", \"blue\"] ",
-        "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
-        "var colors = \"red\", \"green\", \"blue\"",
-        "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")"
+        {
+          "choice": "var colors = [\"red\", \"green\", \"blue\"] "
+        },
+        {
+          "choice": "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")"
+        },
+        {
+          "choice": "var colors = \"red\", \"green\", \"blue\""
+        },
+        {
+          "choice": "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")"
+        }
       ],
-      "correctAnswer": "var colors = [\"red\", \"green\", \"blue\"] ",
+      "correctAnswer": 8267265668509188,
       "description": "",
       "type": "mcq"
     },
@@ -213,12 +315,20 @@
         "How do you round the number 7.25, to the nearest integer?"
       ],
       "choices": [
-        "Math.round(7.25)",
-        "Math.rnd(7.25)",
-        "round(7.25)",
-        "rnd(7.25)"
+        {
+          "choice": "Math.round(7.25)"
+        },
+        {
+          "choice": "Math.rnd(7.25)"
+        },
+        {
+          "choice": "round(7.25)"
+        },
+        {
+          "choice": "rnd(7.25)"
+        }
       ],
-      "correctAnswer": "Math.round(7.25)",
+      "correctAnswer": 8661115273861762,
       "description": "",
       "type": "mcq"
     },
@@ -227,12 +337,20 @@
         "How do you find the number with the highest value of x and y?"
       ],
       "choices": [
-        "Math.max(x, y)",
-        "ceil(x, y)",
-        "top(x, y)",
-        "Math.ceil(x, y)"
+        {
+          "choice": "Math.max(x, y)"
+        },
+        {
+          "choice": "ceil(x, y)"
+        },
+        {
+          "choice": "top(x, y)"
+        },
+        {
+          "choice": "Math.ceil(x, y)"
+        }
       ],
-      "correctAnswer": "Math.max(x, y)",
+      "correctAnswer": 646600914728806,
       "description": "",
       "type": "mcq"
     },
@@ -241,10 +359,14 @@
         "What is the correct JavaScript syntax for opening a new window called \"w2\" ?"
       ],
       "choices": [
-        "w2 = window.open(\"http://www.w3schools.com\");",
-        "w2 = window.new(\"http://www.w3schools.com\");"
+        {
+          "choice": "w2 = window.open(\"http://www.w3schools.com\");"
+        },
+        {
+          "choice": "w2 = window.new(\"http://www.w3schools.com\");"
+        }
       ],
-      "correctAnswer": "w2 = window.open(\"http://www.w3schools.com\");",
+      "correctAnswer": 4711627787423839,
       "description": "",
       "type": "mcq"
     },
@@ -253,10 +375,14 @@
         "JavaScript is the same as Java."
       ],
       "choices": [
-        "false",
-        "true"
+        {
+          "choice": "false"
+        },
+        {
+          "choice": "true"
+        }
       ],
-      "correctAnswer": "false",
+      "correctAnswer": 2071426706107371,
       "description": "",
       "type": "mcq"
     },
@@ -265,11 +391,17 @@
         "How can you detect the client's browser name?"
       ],
       "choices": [
-        "navigator.appName",
-        "client.navName",
-        "browser.name"
+        {
+          "choice": "navigator.appName"
+        },
+        {
+          "choice": "client.navName"
+        },
+        {
+          "choice": "browser.name"
+        }
       ],
-      "correctAnswer": "navigator.appName",
+      "correctAnswer": 8751613839245030,
       "description": "",
       "type": "mcq"
     },
@@ -278,12 +410,20 @@
         "Which event occurs when the user clicks on an HTML element?"
       ],
       "choices": [
-        "onclick",
-        "onmouseover",
-        "onmouseclick",
-        "onchange"
+        {
+          "choice": "onclick"
+        },
+        {
+          "choice": "onmouseover"
+        },
+        {
+          "choice": "onmouseclick"
+        },
+        {
+          "choice": "onchange"
+        }
       ],
-      "correctAnswer": "onclick",
+      "correctAnswer": 5391205021028748,
       "description": "",
       "type": "mcq"
     },
@@ -292,11 +432,17 @@
         "How do you declare a JavaScript variable?"
       ],
       "choices": [
-        "var carName;",
-        "variable carName;",
-        "v carName;"
+        {
+          "choice": "var carName;"
+        },
+        {
+          "choice": "variable carName;"
+        },
+        {
+          "choice": "v carName;"
+        }
       ],
-      "correctAnswer": "var carName; ",
+      "correctAnswer": 8853870103926827,
       "description": "",
       "type": "mcq"
     },
@@ -305,12 +451,20 @@
         "Which operator is used to assign a value to a variable?"
       ],
       "choices": [
-        "=",
-        "x",
-        "-",
-        "*"
+        {
+          "choice": "="
+        },
+        {
+          "choice": "x"
+        },
+        {
+          "choice": "-"
+        },
+        {
+          "choice": "*"
+        }
       ],
-      "correctAnswer": "=",
+      "correctAnswer": 5085957813030089,
       "description": "",
       "type": "mcq"
     },
@@ -319,11 +473,17 @@
         "What will the following code return: Boolean(10 > 9)"
       ],
       "choices": [
-        "true",
-        "NaN",
-        "false"
+        {
+          "choice": "true"
+        },
+        {
+          "choice": "NaN"
+        },
+        {
+          "choice": "false"
+        }
       ],
-      "correctAnswer": "true",
+      "correctAnswer": 8069138026619791,
       "description": "",
       "type": "mcq"
     },
@@ -332,10 +492,14 @@
         "Is JavaScript case-sensitive?"
       ],
       "choices": [
-        "yes",
-        "no"
+        {
+          "choice": "yes"
+        },
+        {
+          "choice": "no"
+        }
       ],
-      "correctAnswer": "",
+      "correctAnswer": 8936213185432811,
       "description": "",
       "type": "mcq"
     },
@@ -347,11 +511,17 @@
         "foo();"
       ],
       "choices": [
-        "ReferenceError",
-        "true",
-        "false"
+        {
+          "choice": "ReferenceError"
+        },
+        {
+          "choice": "true"
+        },
+        {
+          "choice": "false"
+        }
       ],
-      "correctAnswer": "true",
+      "correctAnswer": 8069138026619791,
       "description": "",
       "type": "mcq"
     }
